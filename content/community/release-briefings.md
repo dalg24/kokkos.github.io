@@ -14,7 +14,8 @@ Join us to learn about the latest changes and ask questions.
 
 Upcoming
 --------
-TBD
+* 2026/04/14: [Kokkos 5.1 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-5-1-release-briefing-apr-2026/)
 
 Past
 ----
