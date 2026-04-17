@@ -44,6 +44,7 @@ currently contributing to Kokkos Core and Kokkos Kernels below.
 - Cedric Chevalier, CEA
 - Jan Ciesko, SNL
 - Conrad Clevenger, SNL
+- Jean-François David, CEA
 - Patrick Diehl, LANL
 - Nathan Ellingwood, SNL
 - Paul Gannay, CEA
