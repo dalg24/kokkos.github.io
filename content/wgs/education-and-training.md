@@ -33,7 +33,8 @@ Connect
 Meetings
 --------
 * Schedule: Every Tuesday at 9:00 PT - 10:00 MDT - 12:00 EDT - 18:00 CEST
-* Meeting link (Ask "@Paul Zehner" on [slack](https://kokkosteam.slack.com))
+* Meeting link
+  (Contact the leads)
 * [Agenda](https://github.com/kokkos/development/tree/main/meeting_notes/wg-education-training/agenda)
 * [Previous meetings minutes](https://github.com/kokkos/development/tree/main/meeting_notes/wg-education-training/notes)
 
