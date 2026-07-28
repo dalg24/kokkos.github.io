@@ -16,11 +16,14 @@ Missed a session? Our full library of past technical talks is available on the H
 
 Upcoming
 --------
-* 2026-06-17: [Multi-Dimensional Range Policy performance concerns and improvements](
-  https://cexa-project.org/kokkos-tea-time/2026-06-17-tea-time-multi-dimensional-range-policy/)
+TBD
 
 Past
 ----
+* 2026-07-15: [Acceleragent: An Agentic AI Approach for Porting HPC Codebases to GPUs](
+  https://cexa-project.org/kokkos-tea-time/2026-07-15-tea-time-acceleragent/)
+* 2026-06-17: [Multi-Dimensional Range Policy performance concerns and improvements](
+  https://cexa-project.org/kokkos-tea-time/2026-06-17-tea-time-multi-dimensional-range-policy/)
 * 2026-05-20: [KokkosFFT: Performance-Portable Fast Fourier Transform interface for Kokkos Applications](
   https://cexa-project.org/kokkos-tea-time/2026-05-20-tea-time-kokkosfft/)
 * 2026-04-15: [Parthenon – a performance portable block-structured adaptive mesh refinement framework](
