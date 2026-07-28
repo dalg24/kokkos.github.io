@@ -14,7 +14,7 @@ Join us to learn about the latest changes and ask questions.
 
 Upcoming
 --------
-(TBD)
+* 2026/08/04: [Kokkos 5.2 Release Briefing](https://zoom-lfx.platform.linuxfoundation.org/meeting/92356102438?password=5213d906-8bae-422c-aa6e-4eddcdf393d1)
 
 Past
 ----
