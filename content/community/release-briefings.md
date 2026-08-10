@@ -21,8 +21,8 @@ Past
 * 2026/08/04: [Kokkos 5.2 Release Briefing](
   https://www.olcf.ornl.gov/calendar/kokkos-5-2-release-briefing/)
   (download slides
-    [Kokkos]()
-    [Kokkos Kernels]()
+    [Kokkos](https://raw.githubusercontent.com/kokkos/development/1e08d627ad69dc2c2bb8a0049bce25d49ceec978/release-52.pdf)
+    [Kokkos Kernels](https://raw.githubusercontent.com/kokkos/development/1e08d627ad69dc2c2bb8a0049bce25d49ceec978/kk-release-52.pdf)
   )
   ([watch on YouTube](https://youtu.be/nsH7Lerc2gk?si=huoatrLLC9S94j26))
 * 2026/04/14: [Kokkos 5.1 Release Briefing](
