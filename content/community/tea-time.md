@@ -16,7 +16,8 @@ Missed a session? Our full library of past technical talks is available on the H
 
 Upcoming
 --------
-TBD
+* 2026-09-16: [SYCL and Kokkos: Similarities and Differences](
+  https://cexa-project.org/kokkos-tea-time/2026-09-16-tea-time-sycl-and-kokkos/)
 
 Past
 ----
