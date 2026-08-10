@@ -14,14 +14,23 @@ Join us to learn about the latest changes and ask questions.
 
 Upcoming
 --------
-* 2026/08/04: [Kokkos 5.2 Release Briefing](https://zoom-lfx.platform.linuxfoundation.org/meeting/92356102438?password=5213d906-8bae-422c-aa6e-4eddcdf393d1)
+(TBD)
 
 Past
 ----
+* 2026/08/04: [Kokkos 5.2 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-5-2-release-briefing/)
+  (download slides
+    [Kokkos](https://raw.githubusercontent.com/kokkos/development/1e08d627ad69dc2c2bb8a0049bce25d49ceec978/release-52.pdf)
+    [Kokkos Kernels](https://raw.githubusercontent.com/kokkos/development/1e08d627ad69dc2c2bb8a0049bce25d49ceec978/kk-release-52.pdf)
+  )
+  ([watch on YouTube](https://youtu.be/nsH7Lerc2gk?si=huoatrLLC9S94j26))
 * 2026/04/14: [Kokkos 5.1 Release Briefing](
   https://www.olcf.ornl.gov/calendar/kokkos-5-1-release-briefing-apr-2026/)
-  (download slides [Kokkos](https://github.com/kokkos/kokkos-tutorials/blob/3f2477da774f4d61554dbcdc4cc6f4982b58f6dc/Other/ReleaseBriefings/release-51.pdf))
-  [Kokkos Kernels](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/0fb039020f4c9140f3b97b63d8e26e4907e76356/Other/ReleaseBriefings/kk-release-51.pdf))
+  (download slides
+    [Kokkos](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/3f2477da774f4d61554dbcdc4cc6f4982b58f6dc/Other/ReleaseBriefings/release-51.pdf)
+    [Kokkos Kernels](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/0fb039020f4c9140f3b97b63d8e26e4907e76356/Other/ReleaseBriefings/kk-release-51.pdf)
+  )
 * 2025/11/25: [Kokkos 5.0 Release Briefing](
   https://www.olcf.ornl.gov/calendar/kokkos-5-0-release-briefing-nov-2025/)
   ([download slides](https://raw.githubusercontent.com/kokkos/kokkos-tutorials/8598e035fa1d41c02decff3f004b231d1e90aa08/Other/ReleaseBriefings/release-50.pdf))
