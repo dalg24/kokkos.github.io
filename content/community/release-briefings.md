@@ -14,10 +14,17 @@ Join us to learn about the latest changes and ask questions.
 
 Upcoming
 --------
-* 2026/08/04: [Kokkos 5.2 Release Briefing](https://zoom-lfx.platform.linuxfoundation.org/meeting/92356102438?password=5213d906-8bae-422c-aa6e-4eddcdf393d1)
+(TBD)
 
 Past
 ----
+* 2026/08/04: [Kokkos 5.2 Release Briefing](
+  https://www.olcf.ornl.gov/calendar/kokkos-5-2-release-briefing/)
+  (download slides
+    [Kokkos]()
+    [Kokkos Kernels]()
+  )
+  ([watch on YouTube](https://youtu.be/nsH7Lerc2gk?si=huoatrLLC9S94j26))
 * 2026/04/14: [Kokkos 5.1 Release Briefing](
   https://www.olcf.ornl.gov/calendar/kokkos-5-1-release-briefing-apr-2026/)
   (download slides
