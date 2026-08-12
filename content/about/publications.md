@@ -15,6 +15,7 @@ To ensure proper attribution in your work, please refer to our [Citing Kokkos](h
 
 Year | &nbsp; &nbsp; | Package | &nbsp; &nbsp; | Title
 --- | --- | --- | --- | --- | --- | ---
+2025 || FFT || [Development of a performance portable distributed FFT interface on top of the Kokkos ecosystem](https://doi.org/10.1145/3731599.3767494)
 2025 || FFT || [kokkos-fft: A shared-memory FFT for the Kokkos ecosystem](https://joss.theoj.org/papers/10.21105/joss.08391)
 2024 || Core || [Experiences with implementing Kokkos’ SYCL backend](https://doi.org/10.1109/MCSE.2021.3098509)
 2023 || Kernels || [Performance Portable Batched Sparse Linear Solvers](https://doi.org/10.1109/TPDS.2023.3249110)
