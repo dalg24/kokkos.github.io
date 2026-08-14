@@ -1,4 +1,4 @@
-baseURL = 'https://kokkos.org/'
+baseURL = 'https://dalg24.github.io/kokkos.github.io/'
 languageCode = 'en-us'
 title = 'Kokkos'
 disablePathToLower = true

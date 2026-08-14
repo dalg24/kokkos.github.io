@@ -52,7 +52,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://kokkos.org/"
+            --baseURL "https://dalg24.github.io/kokkos.github.io/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
