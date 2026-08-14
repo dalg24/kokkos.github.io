@@ -1,0 +1,66 @@
+name: Lint & build
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+env:
+  CACHE_KEY: 'hugo-kokkos'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        include:
+          - os: ubuntu-latest
+            hugo_cachedir: '/tmp/hugo_cache_runner'
+          - os: macos-latest
+            hugo_cachedir: '/Users/runner/Library/Caches/hugo_cache'
+
+    runs-on: ${{ matrix.os }}
+
+    env:
+      HUGO_CACHEDIR: ${{ matrix.hugo_cachedir }}
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v4
+
+    - name: Install Go
+      uses: actions/setup-go@v5
+      with:
+        go-version: "stable"
+
+    - name: Install Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: 'latest'
+        extended: true
+
+    # The suffix rotates weekly rather than per run, so the Actions cache pool
+    # (shared across every workflow in the repo) doesn't fill up with entries
+    # that are never reclaimed.
+    - name: Compute the weekly cache epoch
+      id: cache-epoch
+      run: echo "week=$(date -u +%G-W%V)" >> "$GITHUB_OUTPUT"
+      shell: bash
+
+    - name: Use Hugo cache
+      uses: actions/cache@v4
+      with:
+        path: ${{ env.HUGO_CACHEDIR }}
+        key: ${{ runner.os }}-${{ env.CACHE_KEY }}-${{ steps.cache-epoch.outputs.week }}
+        restore-keys: |
+          ${{ runner.os }}-${{ env.CACHE_KEY }}-
+
+    - name: Build site
+      env:
+        HUGO_ENVIRONMENT: production
+        HUGO_ENV: production
+      run: hugo --gc --minify
