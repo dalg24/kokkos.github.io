@@ -1,0 +1,30 @@
+---
+title: Projects
+description: The Kokkos Ecosystem consists of multiple libraries for developing and maintaining performance portable applications.
+content_blocks:
+- _bookshop_name: hero
+  breadcrumb: true
+  background:
+    backdrop: /assets/img/kokkos-ecosystem-hero.jpg
+
+- _bookshop_name: articles
+  heading:
+    title: Kokkos Ecosystem Projects
+    align: start
+  input:
+    section: projects
+    reverse: false
+    sort: date
+  orientation: stacked
+  more:
+    title: More Blogs
+  padding: 0
+  limit: 5
+  background:
+    color: body-tertiary
+    subtle: false
+  class: border-0 card-zoom card-body-margin
+  justify: start
+  hide-empty: false
+  header-style: none
+---

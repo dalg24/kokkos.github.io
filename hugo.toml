@@ -1,0 +1,22 @@
+baseURL = 'https://kokkos.org/'
+languageCode = 'en-us'
+title = 'Kokkos'
+disablePathToLower = true
+enableEmoji = true
+copyright = '© Kokkos Project a Series of LF Projects, LLC. For web site terms of use, trademark policy and other projects policies please see https://lfprojects.org.'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[taxonomies]
+tag = 'tags'
+
+[services.googleAnalytics]
+id = 'G-TXYTG29JXM'
+
+[privacy.googleAnalytics]
+disable = false
+respectDoNotTrack = false
+
+[[module.imports]]
+path = 'github.com/gethinode/hinode'

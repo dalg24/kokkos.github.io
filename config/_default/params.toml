@@ -1,42 +1,3 @@
-[docs]
-    version = "0.9"
-    basePath = "node_modules/@gethinode/hinode"
-
-# Remove the toggle button for light or dark mode
-[main]
-    enableDarkMode = false
-
-[navigation]
-anchor = true
-logo = "/img/kokkos-logo.png"
-color = "body"
-fixed = true
-offset = "3.8em"
-search = true
-breadcrumb = false
-toc = true
-sidebar = true
-
-[home]
-    sections = ["blog"]
-    featurePhoto = ""
-    fullCover = true
-    centerHeadLine = false
-    style = ""
-
-[sections]
-    [sections.blog]
-        title = "Blog"
-        sort = "date"
-        reverse = true
-        color = ""
-        padding = "0"
-        header = "full"
-        footer = "none"
-        orientation = "stacked"
-        style = "border-0 card-zoom"
-        separator = true
-
 [style]
     primary = "#2596be"
     secondary = "#6c757d"
@@ -46,16 +7,31 @@ sidebar = true
     danger = "#dc3545"
     light = "#f8f9fa"
     dark = "#212529"
-    themeOpacity = "10"
-    themeFont = "Inter"
-    themeFontPath = "/fonts"
 
-[links]
-    bs_badge_heading = "https://getbootstrap.com/docs/5.2/components/badge/#headings"
-    hinode_docs = "https://gethinode.com/docs"
-    hugo_imaging = "https://gohugo.io/content-management/image-processing/#imaging-configuration"
-    mozilla_image = "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"
-    observatory = "https://observatory.mozilla.org/analyze/demo.gethinode.com"
-    pagespeed = "https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethinode.com%2F"
-    utterances = "https://utteranc.es"
- 
+[navigation]
+    anchor = true
+    logo = "/download/logos/kokkos.svg"
+    logo-mode = false
+    logo-align = "center"
+    logo-height = 50
+    color = "body"
+    fixed = true
+    overlay = false
+    overlayMode = "dark"
+    horizontal = false
+    offset = "5.7rem"
+    breadcrumb = true
+    toc = true
+    sidebar = true
+    sidebarIcons = false
+    sidebarIconLevel = 1
+    size = "md"
+    startLevel = 2
+    endLevel = 3
+    maxNumHeadings = 9
+    [navigation.padding]
+        x = 4
+        y = 4
+    [navigation.search]
+        enabled = true
+        modal = true

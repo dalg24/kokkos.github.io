@@ -1,0 +1,179 @@
+[[main]]
+  name = "About"
+  pageRef = "/about/"
+  weight = 1
+[[main]]
+  name = "Leadership"
+  pageRef = "/about/leadership/"
+  parent = "About"
+  weight = 20
+[[main]]
+  name = "Overview"
+  pageRef = "/about/overview/"
+  parent = "About"
+  weight = 10
+[[main]]
+  name = "Citing Kokkos"
+  pageRef = "/about/citing-kokkos/"
+  parent = "About"
+  weight = 40
+[[main]]
+  name = "Logos"
+  pageRef = "/about/logos/"
+  parent = "About"
+  weight = 50
+[[main]]
+  name = "Releases"
+  pageRef = "/about/releases/"
+  parent = "About"
+  weight = 60
+[[main]]
+  name = "Publications"
+  pageRef = "/about/publications/"
+  parent = "About"
+  weight = 70
+[[main]]
+  name = "Sponsors"
+  pageRef = "/acknowledgments/"
+  parent = "About"
+  weight = 80
+[[main]]
+  name = "Contact"
+  pageRef = "/contact/"
+  parent = "About"
+  weight = 90
+[[main]]
+  name = "Projects"
+  pageRef = "/projects/"
+  weight = 2
+[[main]]
+  name = "Core"
+  identifier = "projects-core"
+  pageRef = "/projects/kokkos-core/"
+  parent = "Projects"
+  weight = 1
+[[main]]
+  name = "Kernels"
+  identifier = "projects-kernels"
+  pageRef = "/projects/kokkos-kernels/"
+  parent = "Projects"
+  weight = 2
+[[main]]
+  name = "Tools"
+  identifier = "projects-tools"
+  pageRef = "/projects/kokkos-tools/"
+  parent = "Projects"
+  weight = 3
+[[main]]
+  name = "Tutorials"
+  identifier = "projects-tutorials"
+  pageRef = "/projects/kokkos-tutorials/"
+  parent = "Projects"
+  weight = 4
+[[main]]
+  name = "Documentation"
+  weight = 3
+[[main]]
+  name = "Core"
+  identifier = "documentation-core"
+  url = "https://kokkos.org/kokkos-core-wiki/"
+  parent = "Documentation"
+  weight = 10
+[[main]]
+  name = "Get Started"
+  identifier = "documentation-get-started"
+  url = "https://kokkos.org/kokkos-core-wiki/get-started.html"
+  parent = "Documentation"
+  weight = 13
+[[main]]
+  name = "Programming Guide"
+  identifier = "documentation-programming-guide"
+  url = "https://kokkos.org/kokkos-core-wiki/programmingguide.html"
+  parent = "Documentation"
+  weight = 14
+[[main]]
+  name = "API References"
+  identifier = "documentation-api-references"
+  url = "https://kokkos.org/kokkos-core-wiki/api-references.html"
+  parent = "Documentation"
+  weight = 15
+[[main]]
+  name = "Kernels"
+  identifier = "documentation-kernels"
+  url = "https://kokkos.org/kokkos-kernels/docs"
+  parent = "Documentation"
+  weight = 20
+[[main]]
+  name = "Tools"
+  identifier = "documentation-tools"
+  url = "https://github.com/kokkos/kokkos-tools/wiki"
+  parent = "Documentation"
+  weight = 30
+[[main]]
+  name = "Tutorials"
+  identifier = "documentation-tutorials"
+  url = "https://kokkos.org/kokkos-core-wiki/tutorials-and-examples.html"
+  parent = "Documentation"
+  weight = 40
+[[main]]
+  name = "Community"
+  pageRef = "/community/"
+  weight = 4
+[[main]]
+  name = "Code of Conduct"
+  pageRef = "/community/code-of-conduct/"
+  parent = "Community"
+  weight = 1
+[[main]]
+  name = "Chat"
+  pageRef = "/community/chat/"
+  parent = "Community"
+  weight = 2
+[[main]]
+  name = "Events"
+  pageRef = "/community/events/"
+  parent = "Community"
+  weight = 3
+[[main]]
+  name = "Mailing Lists"
+  pageRef = "/community/mailing-lists/"
+  parent = "Community"
+  weight = 4
+[[main]]
+  name = "Tea Time"
+  pageRef = "/community/tea-time/"
+  parent = "Community"
+  weight = 5
+[[main]]
+  name = "Release Briefings"
+  pageRef = "/community/release-briefings/"
+  parent = "Community"
+  weight = 6
+[[main]]
+  name = "Applications"
+  pageRef = "/community/applications/"
+  parent = "Community"
+  weight = 7
+[[main]]
+  name = "Team"
+  pageRef = "/community/team/"
+  parent = "Community"
+  weight = 8
+[[main]]
+  name = "Blog"
+  pageRef = "/blog/"
+  weight = 5
+[[main]]
+  name = "Development"
+  pageRef = "/development/"
+  weight = 6
+[[main]]
+  name = "Working Groups"
+  pageRef = "/development/working-groups/"
+  parent = "Development"
+  weight = 5
+[[main]]
+  name = "Developer Meetings"
+  pageRef = "/development/developer-meetings/"
+  parent = "Development"
+  weight = 10
