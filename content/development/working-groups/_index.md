@@ -1,6 +1,6 @@
 ---
 title: Working Groups
-description: A clean documentation and blog theme for your Hugo site based on Bootstrap 5.
+description: Working groups driving development of the Kokkos Ecosystem.
 content_blocks:
 - _bookshop_name: hero
   breadcrumb: true

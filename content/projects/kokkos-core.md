@@ -2,6 +2,8 @@
 layout: minimal
 title: Kokkos Core
 description: A programming model for parallel algorithms that use many-core chips and share memory among those cores.
+sharing: false
+metadata: none
 ---
 
 Kokkos Core is a programming model for parallel algorithms that use many-core
@@ -19,3 +21,5 @@ architecture according to architecture-specific rules necessary to achieve best
 performance. While other programming models support execution patterns,
 execution policies, execution spaces, and memory spaces; only Kokkos supports
 data patterns and policies, which are necessary for performance portability.
+
+{{< button color="primary" icon="fab github" href="https://github.com/kokkos/kokkos" button-state="enabled" button-size="lg">}}GitHub{{< /button >}}

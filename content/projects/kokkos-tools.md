@@ -2,6 +2,8 @@
 layout: minimal
 title: Kokkos Tools
 description: A "plug in" software interface and a growing set of performance measurement and debugging tools for application development teams.
+sharing: false
+metadata: none
 ---
 
 Kokkos Tools is an innovative “plug in” software interface and a growing set of
@@ -14,3 +16,5 @@ or behave erroneously. Kokkos Tools interfaces leverage the Kokkos Core
 programming model interface to improve an application developer’s experience
 dramatically, by forwarding application specific information and their context
 within the Kokkos Core programming model to the tools.
+
+{{< button color="primary" icon="fab github" href="https://github.com/kokkos/kokkos-tools" button-state="enabled" button-size="lg">}}GitHub{{< /button >}}

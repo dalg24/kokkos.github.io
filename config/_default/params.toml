@@ -1,3 +1,18 @@
+[main]
+    description = "Kokkos is a performance portable programming ecosystem for writing parallel applications that run efficiently across CPUs and GPUs from multiple vendors."
+
+[sharing]
+  enabled = true
+
+[home]
+  sections = ["blog"]
+
+[schema]
+    name = "Kokkos"
+    github = "https://github.com/kokkos/kokkos"
+    [schema.author]
+        name = "The Kokkos Team"
+
 [style]
     primary = "#2596be"
     secondary = "#6c757d"
@@ -20,7 +35,7 @@
     overlayMode = "dark"
     horizontal = false
     offset = "5.7rem"
-    breadcrumb = true
+    breadcrumb = false
     toc = true
     sidebar = true
     sidebarIcons = false
@@ -34,4 +49,4 @@
         y = 4
     [navigation.search]
         enabled = true
-        modal = true
+        modal = false

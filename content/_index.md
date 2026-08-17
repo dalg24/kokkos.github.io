@@ -1,6 +1,7 @@
 ---
 title: Welcome to Kokkos!
-description: A clean documentation and blog theme for your Hugo site based on Bootstrap 5.
+description: A performance portable programming ecosystem for parallel applications on many-core architectures.
+thumbnail: /assets/img/kokkos-ecosystem-hero.jpg
 content_blocks:
 - _bookshop_name: hero
   heading:

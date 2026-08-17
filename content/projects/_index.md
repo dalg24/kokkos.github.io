@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Subprojects
 description: The Kokkos Ecosystem consists of multiple libraries for developing and maintaining performance portable applications.
 content_blocks:
 - _bookshop_name: hero
@@ -9,7 +9,7 @@ content_blocks:
 
 - _bookshop_name: articles
   heading:
-    title: Kokkos Ecosystem Projects
+    title: Kokkos Ecosystem Subprojects
     align: start
   input:
     section: projects

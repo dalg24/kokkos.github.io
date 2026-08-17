@@ -43,32 +43,32 @@
   parent = "About"
   weight = 90
 [[main]]
-  name = "Projects"
+  name = "Subprojects"
   pageRef = "/projects/"
   weight = 2
 [[main]]
   name = "Core"
   identifier = "projects-core"
   pageRef = "/projects/kokkos-core/"
-  parent = "Projects"
+  parent = "Subprojects"
   weight = 1
 [[main]]
   name = "Kernels"
   identifier = "projects-kernels"
   pageRef = "/projects/kokkos-kernels/"
-  parent = "Projects"
+  parent = "Subprojects"
   weight = 2
 [[main]]
   name = "Tools"
   identifier = "projects-tools"
   pageRef = "/projects/kokkos-tools/"
-  parent = "Projects"
+  parent = "Subprojects"
   weight = 3
 [[main]]
   name = "Tutorials"
   identifier = "projects-tutorials"
   pageRef = "/projects/kokkos-tutorials/"
-  parent = "Projects"
+  parent = "Subprojects"
   weight = 4
 [[main]]
   name = "Documentation"
@@ -116,64 +116,80 @@
   parent = "Documentation"
   weight = 40
 [[main]]
+  name = "Blog"
+  pageRef = "/blog/"
+  weight = 4
+[[main]]
   name = "Community"
   pageRef = "/community/"
-  weight = 4
+  weight = 5
 [[main]]
   name = "Code of Conduct"
   pageRef = "/community/code-of-conduct/"
   parent = "Community"
-  weight = 1
+  weight = 51
 [[main]]
   name = "Chat"
   pageRef = "/community/chat/"
   parent = "Community"
-  weight = 2
+  weight = 52
 [[main]]
   name = "Events"
   pageRef = "/community/events/"
   parent = "Community"
-  weight = 3
+  weight = 53
 [[main]]
   name = "Mailing Lists"
   pageRef = "/community/mailing-lists/"
   parent = "Community"
-  weight = 4
+  weight = 54
 [[main]]
   name = "Tea Time"
   pageRef = "/community/tea-time/"
   parent = "Community"
-  weight = 5
+  weight = 55
 [[main]]
   name = "Release Briefings"
   pageRef = "/community/release-briefings/"
   parent = "Community"
-  weight = 6
+  weight = 56
 [[main]]
   name = "Applications"
   pageRef = "/community/applications/"
   parent = "Community"
-  weight = 7
+  weight = 57
 [[main]]
   name = "Team"
   pageRef = "/community/team/"
   parent = "Community"
-  weight = 8
-[[main]]
-  name = "Blog"
-  pageRef = "/blog/"
-  weight = 5
+  weight = 58
 [[main]]
   name = "Development"
   pageRef = "/development/"
   weight = 6
 [[main]]
-  name = "Working Groups"
-  pageRef = "/development/working-groups/"
-  parent = "Development"
-  weight = 5
-[[main]]
   name = "Developer Meetings"
   pageRef = "/development/developer-meetings/"
   parent = "Development"
+  weight = 61
+[[main]]
+  name = "Working Groups"
+  pageRef = "/development/working-groups/"
+  parent = "Development"
+  weight = 62
+
+[[social]]
+  name = "GitHub"
+  pre = "fab fa-github"
+  url = "https://github.com/kokkos"
   weight = 10
+[[social]]
+  name = "Slack"
+  pre = "fab fa-slack"
+  url = "https://kokkosteam.slack.com/"
+  weight = 20
+[[social]]
+  name = "YouTube"
+  pre = "fab fa-youtube"
+  url = "https://www.youtube.com/playlist?list=PLRKq_yxxHw2-Dkc4rEo8s-b3uaxJfuavA"
+  weight = 30

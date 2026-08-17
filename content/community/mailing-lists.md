@@ -6,7 +6,7 @@ sharing: false
 metadata: none
 ---
 
-## Announcements: kokkos-announcements@lists.hpsf.io
+## Announcements: <kokkos-announcements@lists.hpsf.io>
 
 Mailing list for releases and events.
 

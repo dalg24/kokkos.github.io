@@ -1,7 +1,7 @@
 ---
 title: Logos
 description: Official Kokkos logos for use when referencing the project.
-type: docs
+type: minimal
 sharing: false
 metadata: none
 ---

@@ -1,12 +1,9 @@
 ---
 title: Releases
-description: Download links, citation information, and licensing details for Kokkos releases.
 type: docs
 sharing: false
 metadata: none
 ---
-
-# Kokkos Ecosystem release page
 
 ## License
 

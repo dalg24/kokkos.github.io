@@ -1,7 +1,9 @@
 ---
 title: Sponsors
 description: Organizations supporting the development of the Kokkos Ecosystem.
-type: docs
+type: minimal
+sharing: false
+metadata: none
 ---
 
 ## Current
