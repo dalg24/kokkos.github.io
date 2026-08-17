@@ -13,4 +13,23 @@ content_blocks:
     backdrop: /assets/img/kokkos-ecosystem-hero.jpg
   cover: true
   breadcrumb: false
+- _bookshop_name: articles
+  heading:
+    title: Blog
+    align: start
+  input:
+    section: blog
+    reverse: true
+    sort: date
+  hide-empty: false
+  orientation: stacked
+  more:
+    title: More Posts
+  padding: 0
+  limit: 3
+  background:
+    color: body-tertiary
+    subtle: false
+  class: border-0 card-zoom card-body-margin
+  justify: start
 ---
