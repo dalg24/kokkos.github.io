@@ -13,6 +13,9 @@
     [schema.author]
         name = "The Kokkos Team"
 
+[favicon]
+    logo = "img/kokkos-favicon.png"
+
 [style]
     primary = "#2596be"
     secondary = "#6c757d"
