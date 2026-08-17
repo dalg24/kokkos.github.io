@@ -12,16 +12,5 @@ content_blocks:
   background:
     backdrop: /assets/img/kokkos-ecosystem-hero.jpg
   cover: true
-  breadcrumb: true
-- _bookshop_name: cta
-  heading:
-    title: Custom title
-    content: Call to action content
-  background:
-    color: body-tertiary
-    subtle: false
-  links:
-    - title: Get in touch
-      url: '#!'
-      icon: fas chevron-right
+  breadcrumb: false
 ---
