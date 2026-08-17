@@ -28,10 +28,10 @@
 
 [navigation]
     anchor = true
-    logo = "/download/logos/kokkos.svg"
+    logo = "/download/logos/kokkos_text.svg"
     logo-mode = false
     logo-align = "center"
-    logo-height = 50
+    logo-height = 30
     color = "body"
     fixed = true
     overlay = false
