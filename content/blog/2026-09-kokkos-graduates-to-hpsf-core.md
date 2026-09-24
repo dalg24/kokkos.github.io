@@ -15,6 +15,21 @@ unanimously to move Kokkos from the Established Stage to the Core Stage, the
 highest of the three maturity stages a technical project can reach in the
 foundation.
 
+## What the HPSF Stages Mean
+
+HPSF projects progress through three stages: Emerging, Established, and Core.
+These stages aren't a judgment of the intrinsic value or technical quality of a
+codebase: plenty of excellent software can and does stay at the Emerging stage.
+Instead, they reflect the health and maturity of a project *as a community*:
+the size and diversity of its contributor base, the robustness of its
+governance and development processes, and the breadth of its adoption.
+
+{{< carousel id="carousel-1x1" ratio="1x1" class="col-sm-12 col-lg-6 mx-auto" >}}
+  {{< img src="https://raw.githubusercontent.com/hpsfoundation/hpsf-logos/57728e26f1d9da1af10e81310e9decaaa326605d/Badges/HPSF_Project_Badge_Emerging.png" caption="Emerging" >}}
+  {{< img src="https://raw.githubusercontent.com/hpsfoundation/hpsf-logos/57728e26f1d9da1af10e81310e9decaaa326605d/Badges/HPSF_Project_Badge_Established.png" caption="Established" >}}
+  {{< img src="https://raw.githubusercontent.com/hpsfoundation/hpsf-logos/57728e26f1d9da1af10e81310e9decaaa326605d/Badges/HPSF_Project_Badge_Core.png" caption="Core" >}}
+{{< /carousel >}}
+
 ## From Established to Core
 
 Kokkos [joined HPSF](/blog/kokkos-joins-hpsf/) as one of its founding technical
@@ -26,38 +41,6 @@ The Core Stage is reserved for projects that HPSF considers to be on a
 sustaining cycle of development, maintenance, and long-term support: essential
 to the HPC software ecosystem, widely used in production, and developed by a
 broad, multi-institutional community.
-To graduate, a project must, in addition to meeting all Established Stage
-criteria:
-
-* Have a defined governing body of four or more owners/core maintainers, with no more than half affiliated with the same employer, and no single institution controlling a voting majority.
-* Have a documented, publicly accessible description of its governance, decision-making, and release processes.
-* Have a healthy number of committers from at least two organizations.
-* Have explicitly defined security reporting and incident mitigation processes.
-* Provide evidence of widespread adoption in the HPC ecosystem.
-* Receive a 2/3 majority vote from the TAC.
-
-Our [project review](https://github.com/hpsfoundation/tac/issues/70)
-highlighted the breadth of Kokkos usage across the Ecosystem: long-standing
-production deployments at Sandia and Los Alamos National Laboratories
-(including the Sierra code suite, Empire, and SPARC), open science codes such
-as LAMMPS, Trilinos, E3SM, PETSc, and Viskores, and continued deployment at
-CEA.
-It also pointed to the sustained pace of development across our subprojects,
-with hundreds of pull requests merged over the past year in Kokkos Core and
-Kokkos Kernels alone.
-
-The review also underlined the diversification of our contributor base.
-CEA in particular has ramped up significantly and is now, alongside Sandia and
-ORNL, one of the major institutional contributors to Kokkos.
-We're hoping this trend continues, with more institutions joining in and the
-contributor base growing even more diverse. A team is already taking shape at
-Los Alamos National Laboratory, since one of the project leads recently joined
-the lab.
-A broader, more diverse contributor base makes Kokkos more resilient as a
-project, and it's exactly the kind of evidence the TAC looks for when assessing
-Core Stage criteria.
-
-## Growing Beyond the Code
 
 Meeting the Core Stage criteria required more than technical work.
 To grow as a project, we had to learn to look beyond the code and software
@@ -97,19 +80,45 @@ to celebrate.
 We want to thank the HPSF TAC for their thorough review, and every contributor
 and stakeholder who helped Kokkos earn this milestone.
 
----
+## The HPSF Evaluation Process
 
-## Appendix: What the HPSF Stages Mean
+When a project first joins HPSF it goes through a review by the Technical Advisory Committee (TAC),
+which is comprised of representatives of HPSF's projects, and premier member organizations.
 
-HPSF projects progress through three stages: Emerging, Established, and Core.
-These stages aren't a judgment of the intrinsic value or technical quality of a
-codebase: plenty of excellent software can and does stay at the Emerging stage.
-Instead, they reflect the health and maturity of a project *as a community*:
-the size and diversity of its contributor base, the robustness of its
-governance and development processes, and the breadth of its adoption.
+Projects present who they are, how they align with HPSF's mission, and where they fit in the
+foundation's life-cycle model.
+But that initial assessment isn't set it in stone. HPSF requires peridocal re-reviews, to ascertain
+that a project still meets the criteria of their life-cycle stage or - as in the case of Kokkos -
+whether they have matured enough to move to the next level.
 
-{{< carousel id="carousel-1x1" ratio="1x1" class="col-sm-12 col-lg-6 mx-auto" >}}
-  {{< img src="https://raw.githubusercontent.com/hpsfoundation/hpsf-logos/57728e26f1d9da1af10e81310e9decaaa326605d/Badges/HPSF_Project_Badge_Emerging.png" caption="Emerging" >}}
-  {{< img src="https://raw.githubusercontent.com/hpsfoundation/hpsf-logos/57728e26f1d9da1af10e81310e9decaaa326605d/Badges/HPSF_Project_Badge_Established.png" caption="Established" >}}
-  {{< img src="https://raw.githubusercontent.com/hpsfoundation/hpsf-logos/57728e26f1d9da1af10e81310e9decaaa326605d/Badges/HPSF_Project_Badge_Core.png" caption="Core" >}}
-{{< /carousel >}}
+To graduate to the Core level, a project must, in addition to meeting all Established Stage
+criteria:
+
+* Have a defined governing body of four or more owners/core maintainers, with no more than half affiliated with the same employer, and no single institution controlling a voting majority.
+* Have a documented, publicly accessible description of its governance, decision-making, and release processes.
+* Have a healthy number of committers from at least two organizations.
+* Have explicitly defined security reporting and incident mitigation processes.
+* Provide evidence of widespread adoption in the HPC ecosystem.
+* Receive a 2/3 majority vote from the TAC.
+
+Our [project review](https://github.com/hpsfoundation/tac/issues/70)
+highlighted the breadth of Kokkos usage across the Ecosystem: long-standing
+production deployments at Sandia and Los Alamos National Laboratories
+(including the Sierra code suite, Empire, and SPARC), open science codes such
+as LAMMPS, Trilinos, E3SM, PETSc, and Viskores, and continued deployment at
+CEA.
+It also pointed to the sustained pace of development across our subprojects,
+with hundreds of pull requests merged over the past year in Kokkos Core and
+Kokkos Kernels alone.
+
+The review also underlined the diversification of our contributor base.
+CEA in particular has ramped up significantly and is now, alongside Sandia and
+ORNL, one of the major institutional contributors to Kokkos.
+We're hoping this trend continues, with more institutions joining in and the
+contributor base growing even more diverse. A team is already taking shape at
+Los Alamos National Laboratory, since one of the project leads recently joined
+the lab.
+A broader, more diverse contributor base makes Kokkos more resilient as a
+project, and it's exactly the kind of evidence the TAC looks for when assessing
+Core Stage criteria.
+
