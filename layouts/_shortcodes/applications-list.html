@@ -1,0 +1,46 @@
+{{/*
+    Renders a table of Kokkos applications, auto-generated from any page across
+    the site with "application: true" in its front matter.
+
+    Usage: {{< applications-list >}}
+*/}}
+{{ $pages := where site.RegularPages "Params.application" true }}
+{{ $pages = $pages.ByTitle }}
+
+{{ if eq (len $pages) 0 }}
+    <p>No applications registered yet.</p>
+{{ else }}
+<table>
+<thead>
+<tr><th>AppName</th><th>Area</th><th>Institution</th><th>Libraries</th><th>Contact</th></tr>
+</thead>
+<tbody>
+{{ range $pages }}
+    <tr>
+        <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+        <td>{{ .Params.area | default "–" }}</td>
+        <td>
+            {{- $institutions := .Params.institution -}}
+            {{- if not $institutions -}}–
+            {{- else if reflect.IsSlice $institutions -}}{{ delimit $institutions ", " }}
+            {{- else -}}{{ $institutions }}
+            {{- end -}}
+        </td>
+        <td>
+            {{- $tags := .Params.libraries -}}
+            {{- if $tags -}}
+                {{- range $tags }}<span class="badge text-bg-primary">{{ . }}</span> {{ end -}}
+            {{- else -}}–{{- end -}}
+        </td>
+        <td>
+            {{- $name := .Params.contactName -}}
+            {{- $email := .Params.contactEmail -}}
+            {{- if $name }}{{ $name }}{{ with $email }} ({{ . }}){{ end }}
+            {{- else }}–
+            {{- end -}}
+        </td>
+    </tr>
+{{ end }}
+</tbody>
+</table>
+{{ end }}
