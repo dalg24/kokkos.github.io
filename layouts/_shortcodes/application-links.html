@@ -12,7 +12,7 @@
 {{ $docs := $page.Params.documentation }}
 
 {{ if or $source $website $docs }}
-<div class="d-flex gap-3 fs-4">
+<div class="d-flex gap-3 fs-1">
     {{ with $source }}
         {{ $icon := "fas fa-code-branch" }}
         {{ $host := urls.Parse . }}
