@@ -1,14 +1,12 @@
 ---
-layout: minimal
 title: "STK"
-application: true
-area: "Sierra Toolkit"
+entryType: "library"
+area: ["Mesh, I/O & Load Balancing", "Finite Elements"]
+summary: "Sierra Toolkit"
 institution: ["Sandia"]
-status: "Porting/Production"
+status: "In production"
 contactName: "Alan Williams"
 contactEmail: "william@sandia.gov"
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

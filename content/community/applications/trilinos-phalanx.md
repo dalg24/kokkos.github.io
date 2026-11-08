@@ -1,15 +1,13 @@
 ---
-layout: minimal
 title: "Trilinos-Phalanx"
-application: true
-area: "DAG-based Assembly"
+entryType: "library"
+area: ["Finite Elements", "Multiphysics"]
+summary: "DAG-based Assembly"
 institution: ["Sandia"]
-status: "Production"
+status: "In production"
 libraries: ["kokkos-kernels"]
 contactName: "Roger Pawlowski"
 contactEmail: "rppawlo@sandia.gov"
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

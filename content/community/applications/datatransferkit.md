@@ -1,15 +1,13 @@
 ---
-layout: minimal
 title: "DataTransferKit"
-application: true
-area: "solution transfer services for multiphysics applications"
+entryType: "library"
+area: ["Multiphysics", "Mesh, I/O & Load Balancing"]
+summary: "solution transfer services for multiphysics applications"
 institution: ["ORNL"]
 source: "https://github.com/ORNL-CEES/DataTransferKit"
-status: "Production"
+status: "In production"
 contactName: "Stuart Slattery"
 contactEmail: "slatterysr@ornl.gov"
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

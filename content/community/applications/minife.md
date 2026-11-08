@@ -1,15 +1,13 @@
 ---
-layout: minimal
 title: "MiniFE"
-application: true
-area: "Finite Element Proxy App"
+entryType: "application"
+area: ["Finite Elements", "Benchmarks & Proxy Applications"]
+summary: "Finite Element Proxy App"
 institution: ["Sandia"]
 source: "https://github.com/mantevo/minife"
-status: "Production"
+status: "In production"
 contactName: "Christian Trott"
 contactEmail: "sdhammo@sandia.gov"
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

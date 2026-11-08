@@ -1,14 +1,12 @@
 ---
-layout: minimal
 title: "MTGL"
-application: true
-area: "Graph Library"
+entryType: "library"
+area: ["Mesh, I/O & Load Balancing", "Data Analysis"]
+summary: "Graph Library"
 institution: ["Sandia"]
-status: "Porting/Production"
+status: "In production"
 contactName: "Jon Berry"
 contactEmail: "jberry@sandia.gov"
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

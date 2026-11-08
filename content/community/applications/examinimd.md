@@ -1,15 +1,13 @@
 ---
-layout: minimal
 title: "ExaMiniMD"
-application: true
-area: "Molecular Dynamics Proxy App"
+entryType: "application"
+area: ["Molecular Dynamics", "Benchmarks & Proxy Applications"]
+summary: "Molecular Dynamics Proxy App"
 institution: ["Sandia"]
 source: "https://github.com/ecp-copa/examinimd"
-status: "Production"
+status: "In production"
 contactName: "Christian Trott"
 contactEmail: "crtrott@sandia.gov"
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

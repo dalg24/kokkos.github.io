@@ -1,15 +1,13 @@
 ---
-layout: minimal
 title: "Nalu-Wind"
-application: true
-area: "Ecp/Exawind application"
+entryType: "application"
+area: ["Computational Fluid Dynamics"]
+summary: "Ecp/Exawind application"
 institution: ["NREL", "Sandia"]
 source: "https://github.com/exawind/nalu-wind"
-status: "Porting/Production"
+status: "In production"
 contactName: "Alan Williams"
 contactEmail: "william@sandia.gov"
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

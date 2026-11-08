@@ -1,6 +1,6 @@
-name: Register an application
-description: Add your project to the list of applications leveraging Kokkos for performance portability.
-title: "Register application: "
+name: Register an application or library
+description: Add your project to the list of applications and libraries leveraging Kokkos for performance portability.
+title: "Register: "
 labels:
   - application-registry
 body:
@@ -8,7 +8,8 @@ body:
     attributes:
       value: |
         Thanks for using Kokkos! This form adds your project to the
-        [Applications](https://kokkos.org/community/applications/) page. A maintainer
+        [Applications](https://kokkos.org/community/applications/) page. See the
+        [contribution guide](https://kokkos.org/community/applications/contributing/) for details on each field. A maintainer
         will open a pull request on your behalf from the information below.
 
         If you're comfortable with Git, you can also open a pull request directly
@@ -17,22 +18,51 @@ body:
 
         Please provide at least one of the source repository, website, or
         documentation links below — they're shown as icons on your page.
+        Private or proprietary codes can be listed too: choose "Restricted" under
+        Availability, and the links become optional. Please use a team or
+        project address as the contact if you prefer not to list a person.
 
         Feel free to attach a logo or screenshot to this issue (drag and drop an
         image into the text box below) — a maintainer will add it to your page.
-  - type: input
-    id: name
+  - type: dropdown
+    id: entry-type
     attributes:
-      label: Application name
-      placeholder: "Albany"
+      label: Type
+      description: Is this an application, or a library that others build on?
+      options:
+        - Application
+        - Library
     validations:
       required: true
   - type: input
+    id: name
+    attributes:
+      label: Name
+      placeholder: "Albany"
+    validations:
+      required: true
+  - type: checkboxes
     id: area
     attributes:
       label: Area / domain
-      description: What field or problem domain is this application used for?
-      placeholder: "Climate, Molecular Dynamics, CFD, ..."
+      description: Pick every field or problem domain that applies. Missing one? Say so in the notes field below.
+      options:
+        - label: Astrophysics
+        - label: Benchmarks & Proxy Applications
+        - label: Climate & Weather
+        - label: Computational Fluid Dynamics
+        - label: Data Analysis
+        - label: Electromagnetics
+        - label: Finite Elements
+        - label: Geophysics & Earth Sciences
+        - label: Linear Algebra & Solvers
+        - label: Materials & Manufacturing
+        - label: "Mesh, I/O & Load Balancing"
+        - label: Molecular Dynamics
+        - label: Multiphysics
+        - label: Particle Methods
+        - label: Plasma Physics & MHD
+        - label: Programming Models Research
     validations:
       required: true
   - type: input
@@ -41,6 +71,16 @@ body:
       label: Institution(s)
       description: Comma-separated if more than one institution collaborates on this project.
       placeholder: "Sandia National Laboratories, NREL"
+    validations:
+      required: true
+  - type: dropdown
+    id: availability
+    attributes:
+      label: Availability
+      description: Can others inspect the code? "Restricted" covers private, proprietary and export-controlled projects.
+      options:
+        - Open source
+        - Restricted
     validations:
       required: true
   - type: input
@@ -70,15 +110,11 @@ body:
     id: status
     attributes:
       label: Status
-      description: How far along is the Kokkos port?
+      description: How far along is your use of Kokkos? Pick the closest; add detail in the notes field below.
       options:
-        - Evaluation
-        - Development
+        - Evaluating
         - Porting
-        - Porting/Production
-        - Production
-        - Production and Development
-        - Other (please specify in the notes field below)
+        - In production
     validations:
       required: true
   - type: input
@@ -86,10 +122,10 @@ body:
     attributes:
       label: Libraries used (optional)
       description: >
-        Comma-separated list of libraries your application builds on top of —
-        Kokkos ecosystem subprojects (kokkos-kernels, kokkos-fft, kokkos-comm,
-        kokkos-mdspan, kokkos-tools, ...) and/or other third-party libraries
-        (eigen, petsc, trilinos, ...). Shown as badges on your page.
+        Comma-separated list of libraries your application builds on top of.
+        Allowed values: kokkos-comm, kokkos-fft, kokkos-kernels, kokkos-mdspan,
+        kokkos-remote-spaces, kokkos-tools, eigen, petsc, trilinos. Mention
+        others in the notes field. Shown as badges on your page.
       placeholder: "kokkos-kernels, kokkos-fft, petsc"
     validations:
       required: false
@@ -107,6 +143,13 @@ body:
       placeholder: "jane.doe@example.org"
     validations:
       required: true
+  - type: checkboxes
+    id: approval
+    attributes:
+      label: Permission
+      options:
+        - label: I am allowed to list this project, its name and its institution publicly (for restricted or institutional codes, this includes any required release review). No classified information is included.
+          required: true
   - type: textarea
     id: notes
     attributes:

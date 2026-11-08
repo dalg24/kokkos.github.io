@@ -1,14 +1,12 @@
 ---
-layout: minimal
 title: "LAMMPS"
-application: true
-area: "Molecular Dynamics"
+entryType: "application"
+area: ["Molecular Dynamics"]
 institution: ["Sandia"]
 source: "https://github.com/lammps/lammps"
-status: "Production"
+status: "In production"
 contactName: "Stan Moore"
-sharing: false
-metadata: none
+contactEmail: "stamoor@sandia.gov"
 ---
 
 {{< application-details >}}

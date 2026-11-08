@@ -1,16 +1,14 @@
 ---
-layout: minimal
 title: "Albany"
-application: true
-area: "Climate"
+entryType: "application"
+area: ["Climate & Weather", "Finite Elements"]
+summary: "Climate"
 institution: ["Sandia"]
 source: "https://github.com/sandialabs/Albany"
-status: "Porting/Production"
+status: "In production"
 libraries: ["kokkos-kernels"]
 contactName: "Mauro Perego, Irina Tezaur"
 contactEmail: "mperego@sandia.gov, ikalash@sandia.gov"
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

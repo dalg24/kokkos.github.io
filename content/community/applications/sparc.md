@@ -1,13 +1,12 @@
 ---
-layout: minimal
 title: "SPARC"
-application: true
-area: "CFD"
+entryType: "application"
+area: ["Computational Fluid Dynamics"]
+summary: "Sandia Parallel Aerodynamics and Reentry Code"
 institution: ["Sandia"]
-status: "Porting/Production"
+availability: "Restricted"
+status: "In production"
 libraries: ["kokkos-kernels"]
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

@@ -1,15 +1,13 @@
 ---
-layout: minimal
 title: "Drekar"
-application: true
-area: "Turbulent CFD, MHD, Plasma Physics"
+entryType: "application"
+area: ["Computational Fluid Dynamics", "Plasma Physics & MHD"]
+summary: "Turbulent CFD, MHD, Plasma Physics"
 institution: ["Sandia"]
-status: "Production/Porting"
+status: "In production"
 libraries: ["kokkos-kernels"]
 contactName: "Roger Pawlowski"
 contactEmail: "rppawlo@sandia.gov"
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

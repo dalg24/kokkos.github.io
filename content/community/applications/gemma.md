@@ -1,13 +1,11 @@
 ---
-layout: minimal
 title: "Gemma"
-application: true
-area: "Electromagnetic Radiation (EMR)"
+entryType: "application"
+area: ["Electromagnetics"]
+summary: "Electromagnetic Radiation (EMR)"
 institution: ["Sandia"]
-status: "Development"
+status: "Porting"
 contactName: "William Langston"
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

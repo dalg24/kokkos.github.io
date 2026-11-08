@@ -1,13 +1,11 @@
 ---
-layout: minimal
 title: "EMPIRE"
-application: true
-area: "PIC"
+entryType: "application"
+area: ["Particle Methods", "Plasma Physics & MHD"]
+summary: "PIC"
 institution: ["Sandia"]
-status: "Porting/Production"
+status: "In production"
 libraries: ["kokkos-kernels"]
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}

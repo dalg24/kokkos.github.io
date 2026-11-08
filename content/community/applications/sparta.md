@@ -1,13 +1,14 @@
 ---
-layout: minimal
 title: "SPARTA"
-application: true
-area: "DSMC"
+entryType: "application"
+area: ["Particle Methods", "Computational Fluid Dynamics"]
+summary: "DSMC"
 institution: ["Sandia"]
 source: "https://github.com/sparta/sparta"
-status: "Porting"
-sharing: false
-metadata: none
+website: "https://sparta.github.io"
+status: "In production"
+contactName: "Stan Moore"
+contactEmail: "stamoor@sandia.gov"
 ---
 
 {{< application-details >}}

@@ -1,15 +1,13 @@
 ---
-layout: minimal
 title: "Trilinos-Panzer"
-application: true
-area: "Finite Element Tools"
+entryType: "library"
+area: ["Finite Elements", "Multiphysics"]
+summary: "Finite Element Tools"
 institution: ["Sandia"]
-status: "Production/Porting"
+status: "In production"
 libraries: ["kokkos-kernels"]
 contactName: "Roger Pawlowski"
 contactEmail: "rppawlo@sandia.gov"
-sharing: false
-metadata: none
 ---
 
 {{< application-details >}}
